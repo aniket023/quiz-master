@@ -1,0 +1,60 @@
+body{
+	background-image: url("khnoncall-2-2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#tbl{
+	
+	position:absolute;
+	right:21%;
+	top:45%;
+	background-color:white;
+	border-style: solid;
+	border-color: #838b8b;
+	border-width: 7px;
+	text-align: center;
+	padding: 40px 40px 40px 40px;
+	font-size:24px;
+	text-shadow: 0.8px 0.8px 1.8px #8b7355;
+}
+input[type=submit]{
+	font-size:20px;
+	text-shadow: 2px 2px 5px #878787;
+}
+h3{
+	margin-top:170px;
+	margin-left:350px;
+	font-size:25px;
+	
+}
+
+h2{
+	position:relative;
+	margin-left:20px;
+	margin-top:10px;
+	font-size:50px;
+	color: #303030;
+	text-shadow: 2px 2px 5px #8b7355;
+}
+input[type=button]{
+	position:fixed;
+	right:15px;
+	top:20px;
+	background-color:#ee3b3b;
+	color: white;
+	border:none;
+	font-size:28px;
+	padding: 12px 12px;
+	text-shadow: 2px 2px 5px #cd3333;
+	font-family: Verdana;
+	box-shadow: 2px 2px 15px #cdaa7d;
+}
+input[type=button]:hover{
+	background-color:#cd3333;
+	color: white;
+	border:none;
+	font-size:28px;
+	padding: 12px 12px;
+	font-family: Verdana;
+	box-shadow: 5px 5px 10px #8b7355;
+}

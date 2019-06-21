@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to the Quiz</title>
+	<link rel="stylesheet" href="login.css" type="text/css" >
+	<script type="text/javascript" >
+		function register(){
+			window.location="register.html";
+		}
+	</script>
+</head>
+<body>
+	<h2 align="center">Welcome to the Placement Quiz</h2>
+	<h3 align="center">Log In</h3>
+	<form action="login_check.php" method="post" name="login">
+		<table cellpadding="10" align="center" id="tbl" >
+			<tr><td>Login Id </td><td><input type ="text" name="t1" autofocus required /></td></tr>
+			<tr><td>Password </td><td><input type ="password" name="t2" required /></td></tr>
+			<tr><td></td><td><input type="submit" value="Log In" /></td></tr>
+		</table>
+	</form>
+	<input type="button" value="Register Here" onclick="register();" />
+</body>
+</html>
